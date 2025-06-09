@@ -60,7 +60,13 @@ smart-browser-alert/
 
 ## Screenshots
 
-*Add screenshots here once available*
+## Some ScreenShots for this Project:
+### DATA
+![Home page](alertdata.png) 
+
+### ALERT
+![Home page](alert-popup.png)  
+
 
 ---
 
