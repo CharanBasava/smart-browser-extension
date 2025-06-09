@@ -62,7 +62,7 @@ smart-browser-alert/
 
 ## Some ScreenShots for this Project:
 ### DATA
-![Home page](alertdata.png) 
+![Home page](alert-data.png) 
 
 ### ALERT
 ![Home page](alert-popup.png)  
