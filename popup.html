@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart Browser Alert</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <script defer src="popup.js"></script>
+  </head>
+  <body class="bg-slate-100 text-slate-900 font-sans p-4 min-w-[300px] max-w-[400px]">
+    <!-- Title Section -->
+    <h1 class="text-xl font-semibold mb-1">Set Your Alert</h1>
+    <p class="text-sm text-slate-500 mb-4">Don’t miss your next task</p>
+
+    <!-- Alert Setup Card -->
+    <div class="card p-4 rounded-2xl shadow-sm bg-white mb-4 space-y-3">
+      <input
+        id="label"
+        type="text"
+        placeholder="Label your alert"
+        class="input w-full"
+      />
+      <input
+        id="time"
+        type="time"
+        class="input w-full"
+      />
+      <select id="repeat" class="input w-full">
+        <option value="none">Repeat: None</option>
+        <option value="daily">Daily</option>
+        <option value="weekly">Weekly</option>
+      </select>
+      <button id="saveAlert" class="btn w-full mt-2">Save Alert</button>
+    </div>
+
+    <!-- Upcoming Alerts List -->
+    <div>
+      <h2 class="text-base font-medium mb-2">Upcoming Alerts</h2>
+      <ul id="alertList" class="space-y-2 text-sm">
+        <!-- Dynamically added alerts go here -->
+      </ul>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="hidden fixed bottom-4 left-1/2 -translate-x-1/2 bg-black text-white text-sm px-4 py-2 rounded shadow-lg z-50"></div>
+  </body>
+</html>
