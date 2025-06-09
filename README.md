@@ -64,39 +64,22 @@ smart-browser-alert/
 
 ---
 
-## How to Use
+## 🚀 How to Use Smart Browser Alert
 
-1. **On Desktop:**  
-   - Install the Chrome extension from source or Chrome Web Store.  
-   - Click the extension icon to open the popup, set your alert, and save.
+### 🖥️ On Desktop (Chrome Browser)
 
-2. **On Mobile:**  
-   - Open the web app URL (hosted via GitHub Pages or your server).  
-   - Set alerts directly in the browser.  
-   - Allow notifications and fullscreen permissions as prompted.
-
----
-
-## Future Improvements (Optional)
-
-- Light/Dark mode toggle  
-- Mute current tab sound when alert triggers  
-- Voice reminders using Web Speech API  
-- Language switcher for localization  
+1. Open **Google Chrome** on your computer.
+2. Click the **three-dot menu (⋮)** in the top-right and select **Settings**.
+3. Navigate to **Extensions** (or go to `chrome://extensions/` directly).
+4. Enable **Developer Mode** (top-right toggle).
+5. Click **"Load unpacked"**, and select the `smart-browser-alert/` folder.
+6. After loading, click **"Details"** under the extension and enable **"Pin to Toolbar"**.
+7. Click the extension icon to open the popup UI.
+8. Enter your **alert label**, choose the **time**, set **repeat options**, and click **Save**.
+9. At the scheduled time, a **fullscreen alert modal** will appear — even over YouTube or other tabs.
 
 ---
 
-## License
 
-This project is licensed under the MIT License.
 
----
 
-## Acknowledgements
-
-- UI design inspired by [21st.dev](https://21st.dev)  
-- Iconography and design assets from open-source libraries
-
----
-
-Feel free to clone, fork, and contribute!
