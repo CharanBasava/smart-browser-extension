@@ -42,7 +42,7 @@ This project aims to unify alert management across laptops, desktops, and mobile
 
 ## Project Structure
 
-smart-browser-alert/
+** smart-browser-alert/ 
 ├── manifest.json # Chrome extension manifest file
 ├── popup.html # Extension popup UI wrapper
 ├── background.js # Background script for alarms and event handling
@@ -51,7 +51,7 @@ smart-browser-alert/
 ├── app.js # Unified JavaScript logic with environment detection
 ├── style.css # Responsive styles with mobile-friendly design
 ├── assets/
-│ └── icons/ # Extension and web app icons
+│ └── icons/ # Extension and web app icons **
 
 
 
